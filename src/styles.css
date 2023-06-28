@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: freely-movable;
+    src: url("./assets/fonts/freely-movable-font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: juicebox;
+    src: url("./assets/fonts/juicebox-font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: sunny-spells;
+    src: url("./assets/fonts/sunny-spells-basic-font.ttf") format("truetype");
+}*/
