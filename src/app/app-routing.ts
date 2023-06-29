@@ -8,6 +8,7 @@ import { AboutUsComponent } from './FrontOffice/about-us/about-us.component';
 import { GifComponent } from './FrontOffice/gif/gif.component';
 import { SliderComponent } from './FrontOffice/slider/slider.component';
 import { WhyUsComponent } from './FrontOffice/why-us/why-us.component';
+import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.component';
 
 export const routes: Routes = [
   { path: 'home', component: FrontOfficeComponent },
@@ -18,5 +19,6 @@ export const routes: Routes = [
   { path: 'gif', component: GifComponent },
   { path: 'slider', component: SliderComponent },
   { path: 'whyus', component: WhyUsComponent },
+  { path: 'contactus', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];

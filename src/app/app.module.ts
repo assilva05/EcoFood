@@ -18,6 +18,7 @@ import { GifComponent } from './FrontOffice/gif/gif.component';
 import { AboutUsComponent } from './FrontOffice/about-us/about-us.component';
 import {NgOptimizedImage} from "@angular/common";
 import { ApiComponent } from './GoogleMaps/api/api.component';
+import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ApiComponent } from './GoogleMaps/api/api.component';
     WhyUsComponent,
     SliderComponent,
     CheckOutComponent,
-    ApiComponent
+    ApiComponent,
+    ContactUsComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

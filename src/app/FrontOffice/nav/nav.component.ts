@@ -8,4 +8,5 @@ export class NavComponent {
   @Output() scrollToHome = new EventEmitter<void>();
   @Output() scrollToAbout = new EventEmitter<void>();
   @Output() scrollToWhy = new EventEmitter<void>();
+  @Output() scrollToContact = new EventEmitter<void>();
 }

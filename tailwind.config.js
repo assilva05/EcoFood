@@ -14,9 +14,9 @@ module.exports = {
         'sm-amarelo-escuro': '#d2974c'
       },
       fontFamily:{
-        header: "freely-movable",
-        body: "juicebox",
-        bodyBold: "sunny-spells"
+        header: "Space_Mono",
+        body: "Barlow",
+        bodyBold: "Barlow-bold"
       },
       rotate:{
         '40': "40deg",
