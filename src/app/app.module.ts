@@ -9,17 +9,16 @@ import { RouterModule } from '@angular/router';
 import { routes } from './app-routing'
 
 import { FrontOfficeComponent } from './FrontOffice/frontOffice.component';
-import { CheckOutComponent } from './CheckOut/checkOut.component';
 
 import { NavComponent } from './FrontOffice/nav/nav.component';
 import { HomeComponent } from './FrontOffice/home/home.component';
 import { WhyUsComponent } from './FrontOffice/why-us/why-us.component';
-import { SliderComponent } from './FrontOffice/slider/slider.component';
 import { GifComponent } from './FrontOffice/gif/gif.component';
 import { AboutUsComponent } from './FrontOffice/about-us/about-us.component';
+import { SliderComponent } from './FrontOffice/slider/slider.component';
 import {NgOptimizedImage} from "@angular/common";
-import { ApiComponent } from './GoogleMaps/api/api.component';
 import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.component';
+import { ApiGoogleMapsComponent } from './FrontOffice/api-google-maps/api-google-maps.component';
 
 
 @NgModule({
@@ -32,9 +31,8 @@ import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.componen
     GifComponent,
     WhyUsComponent,
     SliderComponent,
-    CheckOutComponent,
-    ApiComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ApiGoogleMapsComponent
   ],
   imports: [
     RouterModule.forRoot(routes),

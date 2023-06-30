@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -24,5 +24,10 @@ export class SliderComponent {
   }
   current_slide(data:number){
     this.currentValue = this.caroussel[data];
+  }
+  constructor(private elementRef: ElementRef) {}  
+
+  scrollToComponent() {
+    this.elementRef.nativeElement.scrollIntoView({ behavior: 'smooth' });
   }
 }

@@ -13,6 +13,6 @@ export class HomeComponent {
     this.elementRef.nativeElement.scrollIntoView({ behavior: 'smooth' });
   }
   buttonClick(){
-    this.router.navigate(['/checkout']);
+    this.router.navigate(['/api-google-maps.component.html']);
   }
 }

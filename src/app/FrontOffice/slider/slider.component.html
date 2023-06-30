@@ -1,0 +1,13 @@
+<section class="bg-fundo2 relative max-md:pt-0 lg:mb-10 py-10 md:px-20 w-full">
+    <input class="carousel-open invisible" type="radio" id="{{currentValue.name}}" name="carousel" aria-hidden="true" >
+    <div class="carousel-item absolute flex flex-row max-lg:flex-col-reverse text-center opacity-0">
+      <p class="w-1/3 w-full flex items-center text-white mr-10 md:text-left max-md:text-justify max-md:p-5 md:py-10 3xl:text-6xl 2xl:text-5xl xl:text-3xl md:text-2xl sm:text-xl">{{currentValue.text}}</p>
+      <img class="w-2/3 lg:pb-0 pb-5 max-lg:w-screen visible" src="{{currentValue.src}}" alt="images">
+    </div>
+    <label (click)="click_left()"class="top-[50%] left-0 absolute cursor-pointer prev control-1 invisible md:visible"><img class="w-max" src="./assets/arrows/left-arrow.png" alt="left-arrow"></label>
+    <label (click)="click_right()" class="top-[50%] right-0 absolute cursor-pointer next control-1 invisible md:visible"><img class="w-max" src="./assets/arrows/right-arrow.png" alt="right-arrow"></label>
+    <ol class="carousel-indicators absolute max-lg:bottom-[4px] bottom-[-50px] left-0 right-0 mb-4 flex justify-center">
+      <li *ngFor="let slide of caroussel"><label [ngClass]="{'error':currentValue.id == slide.id}" (click)="current_slide(slide.id)" class="carousel-bullet mx-[3px] rounded-lg cursor-pointer max-lg:border-sm-fundo border-sm-black border-2 border-solid bg-transparent pl-[60px] h-4"></label></li>
+    </ol>
+  </section>
+  
