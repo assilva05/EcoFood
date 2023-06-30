@@ -4,14 +4,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundColor: {
+        'fundo': '#7c947c',
+      },
       colors:{
-        'sm-azul-escuro': '#2A3D65',
-        'sm-azul-claro': '#0B5CD6',
-        'sm-fundo': '#E8E8E8',
-        'sm-amarelo': '#FFC439',
-        'sm-verde': '#299976',
-        'sm-borda': '#bababa',
-        'sm-amarelo-escuro': '#d2974c'
+        'sm-verde-escuro': '#2A3D65',
+        'sm-verde-claro': '#0B5CD6'
       },
       fontFamily:{
         header: "Space_Mono",

@@ -1,24 +1,17 @@
 <div class="overflow-x-hidden flex flex-row h-20 w-full">
-    <div class="w-full fixed border-x border-y border-sm-borda max-sm:hidden bg-sm-fundo flex items-center z-20 overflow-hidden 3xl:text-xl 2xl:text-xl xl:text-xl md:text-lg sm:text-md">
-        <div class="basis-2/12 sm:visible" ></div>
-        <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black  font-header cursor-pointer"
+    <div class="w-full fixed max-sm:hidden bg-sm-fundo flex items-center z-20 overflow-hidden 3xl:text-xl 2xl:text-xl xl:text-xl md:text-lg sm:text-md">
+        <div class="basis-2/12 sm:visible"></div>
+        <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black font-header cursor-pointer"
+            (click)="scrollToWhy.emit()">SOFTWARE</h4>
+        <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black font-header cursor-pointer"
             (click)="scrollToWhy.emit()">WHY US</h4>
         <span (click)="scrollToHome.emit()" class="basis-1/5 text-center cursor-pointer">
-            <span class="w-max"><img src="../../../assets/logo.svg" class="w-16 h-16 mx-auto" alt="NRC Logo"></span>
+            <span class="w-max"><img src="../../../assets/favicon-removebg-preview.png" class="w-16 h-16 mx-auto" alt="EcoFood Logo"></span>
         </span>
         <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black font-header cursor-pointer"
             (click)="scrollToAbout.emit()">SOBRE NÓS</h4>
-        <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black max-sm:hidden font-header cursor-pointer "
+        <h4 class="basis-1/5 text-center text-sm-azul-escuro font-black max-sm:hidden font-header cursor-pointer"
             (click)="scrollToContact.emit()">CONTACTOS</h4>
         <div class="basis-2/12 sm:visible" ></div>
-    </div>
-    <div class="w-full fixed border-x border-y border-sm-borda max-sm:visible bg-sm-fundo flex items-center z-10 overflow-hidden text-xs xs:text-sm 2xs:text-base 3xs:text-xs 4xs:text-2xs">
-        <span (click)="scrollToHome.emit()" class="basis-1/4 text-center cursor-pointer">
-            <span class="w-max"><img src="../../../assets/logo.svg" class="w-14 h-16 mx-auto" alt="NRC Logo"></span>
-        </span>
-        <h4 class="basis-1/4 text-center text-sm-azul-escuro font-black font-header cursor-pointer"
-            (click)="scrollToWhy.emit()">WHY US</h4>
-        <h4 class="basis-1/4 text-center text-sm-azul-escuro font-black font-header cursor-pointer"
-            (click)="scrollToAbout.emit()">SOBRE NÓS</h4>
     </div>
 </div>

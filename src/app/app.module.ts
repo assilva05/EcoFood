@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
@@ -40,7 +41,8 @@ import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.componen
     BrowserModule,
     ReactiveFormsModule,
     NgOptimizedImage,
-    HttpClientModule
+    HttpClientModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

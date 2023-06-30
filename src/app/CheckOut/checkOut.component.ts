@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    template: `<h1>check</h1>`
+    template: `<google-map></google-map>`
 })
 export class CheckOutComponent{
     
