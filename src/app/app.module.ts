@@ -40,7 +40,8 @@ import { ApiGoogleMapsComponent } from './FrontOffice/api-google-maps/api-google
     ReactiveFormsModule,
     NgOptimizedImage,
     HttpClientModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
