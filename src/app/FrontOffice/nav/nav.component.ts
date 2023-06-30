@@ -9,5 +9,5 @@ export class NavComponent {
   @Output() scrollToAbout = new EventEmitter<void>();
   @Output() scrollToWhy = new EventEmitter<void>();
   @Output() scrollToContact = new EventEmitter<void>();
-  @Output() scrollToSlider = new EventEmitter<void>();
+  @Output() scrollToAGM = new EventEmitter<void>();
 }

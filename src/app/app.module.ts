@@ -15,10 +15,10 @@ import { HomeComponent } from './FrontOffice/home/home.component';
 import { WhyUsComponent } from './FrontOffice/why-us/why-us.component';
 import { GifComponent } from './FrontOffice/gif/gif.component';
 import { AboutUsComponent } from './FrontOffice/about-us/about-us.component';
-import { SliderComponent } from './FrontOffice/slider/slider.component';
 import {NgOptimizedImage} from "@angular/common";
 import { ContactUsComponent } from './FrontOffice/contact-us/contact-us.component';
 import { ApiGoogleMapsComponent } from './FrontOffice/api-google-maps/api-google-maps.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -30,7 +30,6 @@ import { ApiGoogleMapsComponent } from './FrontOffice/api-google-maps/api-google
     AboutUsComponent,
     GifComponent,
     WhyUsComponent,
-    SliderComponent,
     ContactUsComponent,
     ApiGoogleMapsComponent
   ],
@@ -41,7 +40,8 @@ import { ApiGoogleMapsComponent } from './FrontOffice/api-google-maps/api-google
     NgOptimizedImage,
     HttpClientModule,
     GoogleMapsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

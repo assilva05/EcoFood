@@ -12,7 +12,4 @@ export class HomeComponent {
   scrollToComponent() {
     this.elementRef.nativeElement.scrollIntoView({ behavior: 'smooth' });
   }
-  buttonClick(){
-    this.router.navigate(['/api-google-maps.component.html']);
-  }
 }
